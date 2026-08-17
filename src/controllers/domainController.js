@@ -24,7 +24,14 @@ const communities = {
  digest:wrap(async(req,res)=>{const c=await Community.findOne({id:id(req)});if(!c)return res.status(404).json({error:'Community not found.'});const row=await AiReviewDigest.findOne({community_id:c.id});res.json({digest:row?.digest||{available:false,summary:null,positive_themes:[],improvement_themes:[]}});}),
 };
 const members={
- mine:wrap(async(req,res)=>res.json({community_memberships:(await CommunityMember.find({user_id:req.userId})).map(clean)})),
+ mine:wrap(async(req,res)=>{
+  const rows=await CommunityMember.find({user_id:req.userId});
+  const community_members=await Promise.all(rows.map(async membership=>({
+   ...clean(membership),
+   community:await communityJson(await Community.findOne({id:membership.community_id})),
+  })));
+  res.json({community_members});
+ }),
  join:wrap(async(req,res)=>{const communityId=Number(req.params.community_id),c=await Community.findOne({id:communityId,status:'approved'});if(!c)return res.status(404).json({error:'Community not found.'});try{const m=await CommunityMember.create({community_id:communityId,user_id:req.userId,status:'pending',role:'member'});await notify(c.admin_id,'community_join_request','New join request',`${req.user.full_name} requested to join ${c.name}.`);res.status(201).json({message:'Join request submitted.',community_member:clean(m)});}catch(e){if(e.code===11000)return res.status(409).json({error:'You already have a membership or pending request for this community.'});throw e;}}),
  list:wrap(async(req,res)=>{const q={community_id:Number(req.params.community_id)};if(req.query.status)q.status=req.query.status;res.json({community_members:(await CommunityMember.find(q)).map(clean)});}),
  decide:wrap(async(req,res)=>{const m=await CommunityMember.findOne({id:id(req)});if(!m)return res.status(404).json({error:'Community member not found.'});if(!await isCommunityAdmin(req.userId,m.community_id))return res.status(403).json({error:'Community admin access required.'});m.status=req.path.endsWith('/approve')?'approved':'rejected';await m.save();res.json({message:`Membership ${m.status}.`,community_member:clean(m)});}),
