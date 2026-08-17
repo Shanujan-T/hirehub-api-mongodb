@@ -1,6 +1,6 @@
 'use strict';
-const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const passwordUtil = require('../utils/password');
 const { User, UserSkill, Skill, WorkSample, Contract, Review, publicDoc } = require('../models');
 const { jwtSecret, jwtExpiresMinutes } = require('../config');
 
@@ -32,7 +32,7 @@ async function register(req, res, next) {
     const email = String(data.email).trim().toLowerCase(), full_name = String(data.full_name).trim();
     if (!email || !full_name) return res.status(400).json({ errors: ['email and full_name cannot be blank.'] });
     if (await User.exists({ email })) return res.status(409).json({ error: 'Email already registered.' });
-    const user = await User.create({ email, full_name, role: data.role, password: await bcrypt.hash(String(data.password), 12) });
+    const user = await User.create({ email, full_name, role: data.role, password: await passwordUtil.hash(data.password) });
     return res.status(201).json({ message: 'Registered successfully.', access_token: tokenFor(user.id), user: await serializeUser(user, { self: true, skills: true }) });
   } catch (e) { if (e.code === 11000) return res.status(409).json({ error: 'Email already registered.' }); next(e); }
 }
@@ -42,7 +42,7 @@ async function login(req, res, next) {
     if (!data.email) errors.push('email is required.'); if (!data.password) errors.push('password is required.');
     if (errors.length) return res.status(400).json({ errors });
     const user = await User.findOne({ email: String(data.email).trim().toLowerCase() });
-    if (!user || !(await bcrypt.compare(String(data.password), user.password))) return res.status(401).json({ error: 'Invalid email or password.' });
+    if (!user || !(await passwordUtil.verify(data.password, user.password))) return res.status(401).json({ error: 'Invalid email or password.' });
     if (!user.is_active) return res.status(403).json({ error: 'Account suspended.' });
     return res.json({ access_token: tokenFor(user.id), user: await serializeUser(user, { self: true, skills: true }) });
   } catch (e) { next(e); }

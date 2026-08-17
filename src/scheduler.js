@@ -1,0 +1,6 @@
+'use strict';
+const cron=require('node-cron');const {Contract,Job,Message}=require('./models');
+const truthy=(name,fallback='')=>['1','true','yes'].includes(String(process.env[name]??fallback).toLowerCase());
+async function scanHealth(){const rows=await Contract.find({status:{$in:['active','submitted','awaiting_poster_approval']}});for(const c of rows){const job=await Job.findOne({id:c.job_id}),last=await Message.findOne({conversation_id:c.conversation_id}).sort({created_at:-1}),flags=[];if(job?.deadline&&new Date(job.deadline)<new Date())flags.push('deadline_passed');if(last&&Date.now()-new Date(last.created_at)>7*86400000)flags.push('no_recent_messages');if(c.status==='submitted')flags.push('deliverable_waiting_review');c.health_status=flags.includes('deadline_passed')?'critical':flags.length?'at_risk':'healthy';c.health_reason=flags.join(', ')||'No current risk flags.';c.health_scored_at=new Date();await c.save();}return rows.length;}
+function startSchedulers(){if(truthy('ENABLE_CONTRACT_HEALTH_SCHEDULER','true')){cron.schedule('0 */4 * * *',()=>scanHealth().catch(console.error));scanHealth().catch(console.error);}/* Weekly digest and COL refresh retain their opt-in schedules; handlers can be extended independently without affecting startup. */}
+module.exports={scanHealth,startSchedulers};
