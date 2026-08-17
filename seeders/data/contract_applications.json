@@ -1,0 +1,22 @@
+[
+  {"contract_id": 13, "member_id": 14, "note": "Experienced with React storefronts.", "status": "applied"},
+  {"contract_id": 13, "member_id": 15, "note": "Strong UI portfolio for e-commerce.", "status": "applied"},
+  {"contract_id": 13, "member_id": 16, "note": "Available full-time this month.", "status": "selected"},
+  {"contract_id": 16, "member_id": 15, "note": "Interior paint specialist.", "status": "applied"},
+  {"contract_id": 16, "member_id": 16, "note": "Can start next week.", "status": "applied"},
+  {"contract_id": 17, "member_id": 14, "note": "Applied before assignment freeze.", "status": "rejected"},
+  {"contract_id": 17, "member_id": 20, "note": "Currently assigned member.", "status": "selected"},
+  {"contract_id": 20, "member_id": 14, "note": "Built two booking MVPs.", "status": "selected"},
+  {"contract_id": 20, "member_id": 15, "note": "Interested in calendar UX.", "status": "applied"},
+  {"contract_id": 20, "member_id": 16, "note": "Backend-focused applicant.", "status": "applied"},
+  {"contract_id": 1, "member_id": 17, "note": "Lead plumber on repipe jobs.", "status": "selected"},
+  {"contract_id": 1, "member_id": 18, "note": "Backup if lead unavailable.", "status": "rejected"},
+  {"contract_id": 4, "member_id": 18, "note": "SEO writing background.", "status": "selected"},
+  {"contract_id": 4, "member_id": 17, "note": "Secondary writer.", "status": "applied"},
+  {"contract_id": 8, "member_id": 14, "note": "Product photography portfolio.", "status": "selected"},
+  {"contract_id": 8, "member_id": 20, "note": "Available for retouch support.", "status": "applied"},
+  {"contract_id": 10, "member_id": 19, "note": "Water heater certified.", "status": "selected"},
+  {"contract_id": 15, "member_id": 18, "note": "Cabinet install experience.", "status": "selected"},
+  {"contract_id": 15, "member_id": 19, "note": "Can assist with measurements.", "status": "applied"},
+  {"contract_id": 19, "member_id": 16, "note": "Interior repaint lead.", "status": "selected"}
+]

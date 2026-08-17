@@ -1,0 +1,22 @@
+[
+  {"contract_id": 1, "total_amount": 220.00, "commission_amount": 6.60, "member_payout": 213.40, "status": "pending"},
+  {"contract_id": 2, "total_amount": 500.00, "commission_amount": 15.00, "member_payout": 485.00, "status": "pending"},
+  {"contract_id": 3, "total_amount": 420.00, "commission_amount": 12.60, "member_payout": 407.40, "status": "released", "released_at": "2026-08-23T10:00:00"},
+  {"contract_id": 4, "total_amount": 140.00, "commission_amount": 4.20, "member_payout": 135.80, "status": "pending"},
+  {"contract_id": 5, "total_amount": 2600.00, "commission_amount": 78.00, "member_payout": 2522.00, "status": "released", "released_at": "2026-09-06T14:30:00"},
+  {"contract_id": 6, "total_amount": 200.00, "commission_amount": 6.00, "member_payout": 194.00, "status": "released", "released_at": "2026-07-31T09:15:00"},
+  {"contract_id": 7, "total_amount": 480.00, "commission_amount": 14.40, "member_payout": 465.60, "status": "pending"},
+  {"contract_id": 8, "total_amount": 400.00, "commission_amount": 12.00, "member_payout": 388.00, "status": "pending"},
+  {"contract_id": 9, "total_amount": 130.00, "commission_amount": 3.90, "member_payout": 126.10, "status": "released", "released_at": "2026-08-15T16:00:00"},
+  {"contract_id": 10, "total_amount": 210.00, "commission_amount": 6.30, "member_payout": 203.70, "status": "pending"},
+  {"contract_id": 11, "total_amount": 360.00, "commission_amount": 10.80, "member_payout": 349.20, "status": "pending"},
+  {"contract_id": 12, "total_amount": 470.00, "commission_amount": 14.10, "member_payout": 455.90, "status": "released", "released_at": "2026-08-07T11:45:00"},
+  {"contract_id": 13, "total_amount": 2800.00, "commission_amount": 84.00, "member_payout": 2716.00, "status": "pending"},
+  {"contract_id": 14, "total_amount": 350.00, "commission_amount": 10.50, "member_payout": 339.50, "status": "pending"},
+  {"contract_id": 15, "total_amount": 580.00, "commission_amount": 17.40, "member_payout": 562.60, "status": "pending"},
+  {"contract_id": 16, "total_amount": 310.00, "commission_amount": 9.30, "member_payout": 300.70, "status": "pending"},
+  {"contract_id": 17, "total_amount": 340.00, "commission_amount": 10.20, "member_payout": 329.80, "status": "pending"},
+  {"contract_id": 18, "total_amount": 550.00, "commission_amount": 16.50, "member_payout": 533.50, "status": "pending"},
+  {"contract_id": 19, "total_amount": 300.00, "commission_amount": 9.00, "member_payout": 291.00, "status": "pending"},
+  {"contract_id": 20, "total_amount": 3000.00, "commission_amount": 90.00, "member_payout": 2910.00, "status": "pending"}
+]

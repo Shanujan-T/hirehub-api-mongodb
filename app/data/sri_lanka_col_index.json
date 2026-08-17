@@ -1,0 +1,222 @@
+{
+  "fetched_at": "2026-08-06T06:05:15+00:00",
+  "source": "numbeo_via_apify",
+  "attribution": "Cost of living indices derived from Numbeo (https://www.numbeo.com).",
+  "actor": "automation-lab/numbeo-scraper",
+  "min_contributors": 10,
+  "colombo_index": 100.0,
+  "national": {
+    "cost_of_living_index": null
+  },
+  "cities": {},
+  "provinces": {},
+  "districts": {
+    "Colombo": {
+      "index": null,
+      "multiplier": 1.0,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Western Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Gampaha": {
+      "index": null,
+      "multiplier": 1.0,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Western Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Kandy": {
+      "index": null,
+      "multiplier": 0.85,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Central Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Kalutara": {
+      "index": null,
+      "multiplier": 0.85,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Western Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Galle": {
+      "index": null,
+      "multiplier": 0.85,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Southern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Matara": {
+      "index": null,
+      "multiplier": 0.85,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Southern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Kurunegala": {
+      "index": null,
+      "multiplier": 0.7,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "North Western Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Anuradhapura": {
+      "index": null,
+      "multiplier": 0.7,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "North Central Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Ratnapura": {
+      "index": null,
+      "multiplier": 0.7,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Sabaragamuwa Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Badulla": {
+      "index": null,
+      "multiplier": 0.7,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Uva Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Jaffna": {
+      "index": null,
+      "multiplier": 0.7,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Northern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Puttalam": {
+      "index": null,
+      "multiplier": 0.7,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "North Western Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Matale": {
+      "index": null,
+      "multiplier": 0.7,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Central Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Hambantota": {
+      "index": null,
+      "multiplier": 0.7,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Southern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Ampara": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Eastern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Batticaloa": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Eastern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Trincomalee": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Eastern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Nuwara Eliya": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Central Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Kegalle": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Sabaragamuwa Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Polonnaruwa": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "North Central Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Monaragala": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Uva Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Vavuniya": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Northern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Mannar": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Northern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Kilinochchi": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Northern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    },
+    "Mullaitivu": {
+      "index": null,
+      "multiplier": 0.55,
+      "source": "tier-estimate",
+      "contributors": null,
+      "province": "Northern Province",
+      "note": "No Numbeo city/province/national signal; legacy tier used."
+    }
+  },
+  "fetch_errors": [],
+  "notes": [
+    "Multipliers are district_index / colombo_index (Colombo forced to 1.0).",
+    "city-level requires contributors >= min_contributors when a count is present.",
+    "province-level is the mean of reliable city indexes in that province.",
+    "tier-estimate uses the legacy 1.0/0.85/0.70/0.55 bands when Numbeo has no signal."
+  ]
+}

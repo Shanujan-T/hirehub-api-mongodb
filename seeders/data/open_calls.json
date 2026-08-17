@@ -1,0 +1,22 @@
+[
+  {"community_id": 1, "title": "Looking for React developers", "status": "open"},
+  {"community_id": 2, "title": "Emergency plumbing shifts", "status": "open"},
+  {"community_id": 3, "title": "Smart home wiring projects", "status": "open"},
+  {"community_id": 4, "title": "Brand design sprint members", "status": "open"},
+  {"community_id": 5, "title": "Cabinet makers needed", "status": "open"},
+  {"community_id": 6, "title": "Weekend wedding photographers", "status": "open"},
+  {"community_id": 7, "title": "Exterior painting crew", "status": "open"},
+  {"community_id": 8, "title": "SEO content writers", "status": "open"},
+  {"community_id": 9, "title": "Vue.js front-end contributors", "status": "open"},
+  {"community_id": 10, "title": "On-call leak repair team", "status": "closed"},
+  {"community_id": 11, "title": "Solar installation helpers", "status": "open"},
+  {"community_id": 12, "title": "Packaging illustrators", "status": "open"},
+  {"community_id": 13, "title": "Deck builders for Q3", "status": "open"},
+  {"community_id": 14, "title": "Studio product photographers", "status": "open"},
+  {"community_id": 15, "title": "Premium finish painters", "status": "closed"},
+  {"community_id": 16, "title": "Newsletter writers", "status": "open"},
+  {"community_id": 17, "title": "MVP app builders", "status": "open"},
+  {"community_id": 18, "title": "Water heater specialists", "status": "open"},
+  {"community_id": 19, "title": "Commercial electrical maintenance", "status": "closed"},
+  {"community_id": 20, "title": "Social template designers", "status": "open"}
+]

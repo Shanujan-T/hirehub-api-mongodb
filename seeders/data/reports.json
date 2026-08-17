@@ -1,0 +1,22 @@
+[
+  {"reporter_id": 5, "contract_id": 17, "reason": "Delivered work missed key requirements", "status": "open"},
+  {"reporter_id": 2, "contract_id": 6, "reason": "Delay beyond agreed deadline", "status": "resolved"},
+  {"reporter_id": 4, "contract_id": 9, "reason": "Quality below expectations", "status": "open"},
+  {"reporter_id": 6, "contract_id": 3, "reason": "Miscommunication on final deliverables", "status": "resolved"},
+  {"reporter_id": 2, "contract_id": 1, "reason": "Partial completion only", "status": "open"},
+  {"reporter_id": 3, "contract_id": 5, "reason": "Billing discrepancy", "status": "resolved"},
+  {"reporter_id": 6, "contract_id": 10, "reason": "Incomplete installation", "status": "open"},
+  {"reporter_id": 2, "contract_id": 12, "reason": "Design revisions not applied", "status": "resolved"},
+  {"reporter_id": 2, "contract_id": 4, "reason": "Content plagiarism concern", "status": "open"},
+  {"reporter_id": 1, "contract_id": 18, "reason": "Structural issue post-install", "status": "open"},
+  {"reporter_id": 4, "contract_id": 2, "reason": "Brand guidelines not followed", "status": "resolved"},
+  {"reporter_id": 3, "contract_id": 19, "reason": "Paint quality complaint", "status": "open"},
+  {"reporter_id": 2, "contract_id": 8, "reason": "Photos not delivered on time", "status": "resolved"},
+  {"reporter_id": 5, "contract_id": 15, "reason": "Cabinet measurements incorrect", "status": "open"},
+  {"reporter_id": 1, "contract_id": 11, "reason": "Wiring safety concern", "status": "open"},
+  {"reporter_id": 6, "contract_id": 7, "reason": "Packaging design mismatch", "status": "resolved"},
+  {"reporter_id": 1, "contract_id": 20, "reason": "Scope creep dispute", "status": "open"},
+  {"reporter_id": 1, "contract_id": 13, "reason": "Unresponsive after assignment", "status": "open"},
+  {"reporter_id": 3, "contract_id": 16, "reason": "Color mismatch from sample", "status": "resolved"},
+  {"reporter_id": 3, "contract_id": 14, "reason": "Handover delay affecting deadline", "status": "open"}
+]

@@ -1,0 +1,22 @@
+[
+  {"community_id": 1, "user_id": 7, "role": "admin", "status": "approved", "joined_at": "2025-01-06"},
+  {"community_id": 1, "user_id": 14, "role": "member", "status": "approved", "joined_at": "2025-05-02"},
+  {"community_id": 1, "user_id": 15, "role": "member", "status": "approved", "joined_at": "2025-05-11"},
+  {"community_id": 1, "user_id": 16, "role": "member", "status": "approved", "joined_at": "2025-05-20"},
+  {"community_id": 2, "user_id": 8, "role": "admin", "status": "approved", "joined_at": "2025-01-23"},
+  {"community_id": 2, "user_id": 17, "role": "member", "status": "approved", "joined_at": "2025-06-03"},
+  {"community_id": 2, "user_id": 18, "role": "member", "status": "approved", "joined_at": "2025-06-17"},
+  {"community_id": 2, "user_id": 19, "role": "member", "status": "pending", "joined_at": "2025-07-02"},
+  {"community_id": 3, "user_id": 9, "role": "admin", "status": "approved", "joined_at": "2025-02-11"},
+  {"community_id": 3, "user_id": 20, "role": "member", "status": "approved", "joined_at": "2025-07-21"},
+  {"community_id": 3, "user_id": 14, "role": "member", "status": "approved", "joined_at": "2025-05-05"},
+  {"community_id": 4, "user_id": 10, "role": "admin", "status": "approved", "joined_at": "2025-02-28"},
+  {"community_id": 4, "user_id": 15, "role": "member", "status": "approved", "joined_at": "2025-05-12"},
+  {"community_id": 4, "user_id": 16, "role": "member", "status": "approved", "joined_at": "2025-05-21"},
+  {"community_id": 5, "user_id": 11, "role": "admin", "status": "approved", "joined_at": "2025-03-09"},
+  {"community_id": 5, "user_id": 18, "role": "member", "status": "approved", "joined_at": "2025-06-18"},
+  {"community_id": 5, "user_id": 19, "role": "member", "status": "approved", "joined_at": "2025-07-03"},
+  {"community_id": 6, "user_id": 12, "role": "admin", "status": "approved", "joined_at": "2025-03-31"},
+  {"community_id": 6, "user_id": 20, "role": "member", "status": "approved", "joined_at": "2025-07-22"},
+  {"community_id": 7, "user_id": 13, "role": "admin", "status": "approved", "joined_at": "2025-04-15"}
+]

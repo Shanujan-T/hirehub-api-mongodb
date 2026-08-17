@@ -1,0 +1,23 @@
+[
+  {"email": "hassan@gmail.com", "full_name": "Nadia Hassan", "role": "user", "location": "Colombo", "created_at": "2025-01-12", "password": "hassan123"},
+  {"email": "james.okafor@example.com", "full_name": "James Okafor", "role": "user", "location": "Kandy", "created_at": "2025-02-03", "password": "Password123"},
+  {"email": "lena.kowalski@example.com", "full_name": "Lena Kowalski", "role": "user", "location": "Galle", "created_at": "2025-02-20", "password": "Password123"},
+  {"email": "ravi.patel@example.com", "full_name": "Ravi Patel", "role": "user", "location": "Negombo", "created_at": "2025-03-15", "password": "Password123"},
+  {"email": "emma.johansson@example.com", "full_name": "Emma Johansson", "role": "user", "location": "Jaffna", "created_at": "2025-04-02", "password": "Password123"},
+  {"email": "carlos.mendes@example.com", "full_name": "Carlos Mendes", "role": "user", "location": "Matara", "created_at": "2025-04-28", "password": "Password123"},
+  {"email": "perera@gmail.com", "full_name": "Ruwan Perera", "role": "employer", "location": "Colombo", "created_at": "2025-01-05", "password": "perera123"},
+  {"email": "tom.becker@example.com", "full_name": "Tom Becker", "role": "user", "location": "Kandy", "created_at": "2025-01-22", "password": "Password123"},
+  {"email": "aisha.rahman@example.com", "full_name": "Aisha Rahman", "role": "user", "location": "Galle", "created_at": "2025-02-10", "password": "Password123"},
+  {"email": "liam.oconnor@example.com", "full_name": "Liam O'Connor", "role": "user", "location": "Colombo", "created_at": "2025-02-27", "password": "Password123"},
+  {"email": "priya.nair@example.com", "full_name": "Priya Nair", "role": "user", "location": "Kandy", "created_at": "2025-03-08", "password": "Password123"},
+  {"email": "marco.rossi@example.com", "full_name": "Marco Rossi", "role": "user", "location": "Galle", "created_at": "2025-03-30", "password": "Password123"},
+  {"email": "grace.kim@example.com", "full_name": "Grace Kim", "role": "user", "location": "Colombo", "created_at": "2025-04-14", "password": "Password123"},
+  {"email": "sam@example.com", "full_name": "Sam Perera", "role": "employer", "location": "Kandy", "created_at": "2025-05-01", "password": "sam123"},
+  {"email": "fatima.zahra@example.com", "full_name": "Fatima Zahra", "role": "user", "location": "Galle", "created_at": "2025-05-10", "password": "Password123"},
+  {"email": "noah.williams@example.com", "full_name": "Noah Williams", "role": "user", "location": "Colombo", "created_at": "2025-05-19", "password": "Password123"},
+  {"email": "sofia.alvarez@example.com", "full_name": "Sofia Alvarez", "role": "user", "location": "Matara", "created_at": "2025-06-02", "password": "Password123"},
+  {"email": "kwame.boateng@example.com", "full_name": "Kwame Boateng", "role": "user", "location": "Kandy", "created_at": "2025-06-16", "password": "Password123"},
+  {"email": "yuki.tanaka@example.com", "full_name": "Yuki Tanaka", "role": "user", "location": "Colombo", "created_at": "2025-07-01", "password": "Password123"},
+  {"email": "hannah.fischer@example.com", "full_name": "Hannah Fischer", "role": "user", "location": "Galle", "created_at": "2025-07-20", "password": "Password123"},
+  {"email": "admin@gmail.com", "full_name": "Admin", "role": "admin", "location": "Colombo", "bio": "Platform administrator for HireHub.", "created_at": "2025-01-01", "password": "admin123"}
+]

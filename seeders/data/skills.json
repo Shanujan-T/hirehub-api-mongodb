@@ -1,0 +1,22 @@
+[
+  {"name": "React", "category": "Web Development"},
+  {"name": "Node.js", "category": "Web Development"},
+  {"name": "UI Design", "category": "Design"},
+  {"name": "Figma", "category": "Design"},
+  {"name": "Pipe Fitting", "category": "Plumbing"},
+  {"name": "Leak Repair", "category": "Plumbing"},
+  {"name": "Drain Cleaning", "category": "Plumbing"},
+  {"name": "Wiring", "category": "Electrical"},
+  {"name": "Circuit Panels", "category": "Electrical"},
+  {"name": "Logo Design", "category": "Graphic Design"},
+  {"name": "Branding", "category": "Graphic Design"},
+  {"name": "Illustration", "category": "Graphic Design"},
+  {"name": "Furniture Making", "category": "Carpentry"},
+  {"name": "Cabinetry", "category": "Carpentry"},
+  {"name": "Portrait Photography", "category": "Photography"},
+  {"name": "Event Photography", "category": "Photography"},
+  {"name": "Interior Painting", "category": "Painting"},
+  {"name": "Exterior Painting", "category": "Painting"},
+  {"name": "Copywriting", "category": "Content Writing"},
+  {"name": "SEO Writing", "category": "Content Writing"}
+]

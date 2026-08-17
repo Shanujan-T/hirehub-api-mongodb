@@ -1,0 +1,22 @@
+[
+  {"user_id": 14, "skill_id": 1, "level": "advanced"},
+  {"user_id": 14, "skill_id": 2, "level": "intermediate"},
+  {"user_id": 15, "skill_id": 3, "level": "expert"},
+  {"user_id": 15, "skill_id": 4, "level": "advanced"},
+  {"user_id": 16, "skill_id": 2, "level": "advanced"},
+  {"user_id": 17, "skill_id": 5, "level": "expert"},
+  {"user_id": 17, "skill_id": 6, "level": "advanced"},
+  {"user_id": 18, "skill_id": 7, "level": "intermediate"},
+  {"user_id": 19, "skill_id": 8, "level": "advanced"},
+  {"user_id": 19, "skill_id": 9, "level": "expert"},
+  {"user_id": 20, "skill_id": 10, "level": "advanced"},
+  {"user_id": 20, "skill_id": 11, "level": "intermediate"},
+  {"user_id": 14, "skill_id": 15, "level": "advanced"},
+  {"user_id": 15, "skill_id": 17, "level": "intermediate"},
+  {"user_id": 16, "skill_id": 12, "level": "advanced"},
+  {"user_id": 17, "skill_id": 19, "level": "expert"},
+  {"user_id": 18, "skill_id": 20, "level": "advanced"},
+  {"user_id": 19, "skill_id": 13, "level": "intermediate"},
+  {"user_id": 20, "skill_id": 16, "level": "expert"},
+  {"user_id": 16, "skill_id": 18, "level": "beginner"}
+]

@@ -1,0 +1,22 @@
+[
+  {"name": "PixelForge Web Dev", "description": "Full-stack web projects for SMEs.", "location": "Colombo", "reputation_score": 4.8},
+  {"name": "QuickFix Plumbers", "description": "Residential plumbing repairs and installs.", "location": "Kandy", "reputation_score": 4.5},
+  {"name": "BrightSpark Electric", "description": "Licensed electrical work for homes and offices.", "location": "Galle", "reputation_score": 4.6},
+  {"name": "InkWell Design Studio", "description": "Brand identity and visual design.", "location": "Colombo", "reputation_score": 4.9},
+  {"name": "Timberline Carpentry", "description": "Custom woodwork and cabinetry.", "location": "Kandy", "reputation_score": 4.3},
+  {"name": "Lucid Lens Photography", "description": "Events, portraits, and product shoots.", "location": "Matara", "reputation_score": 4.7},
+  {"name": "ColorCraft Painters", "description": "Interior and exterior painting crews.", "location": "Negombo", "reputation_score": 4.2},
+  {"name": "WordSmith Collective", "description": "SEO content and long-form writing.", "location": "Colombo", "reputation_score": 4.4},
+  {"name": "CodeHive Web", "description": "Vue and React front-end specialists.", "location": "Kandy", "reputation_score": 4.1},
+  {"name": "FlowMasters Plumbing", "description": "Emergency plumbing response team.", "location": "Galle", "reputation_score": 3.9},
+  {"name": "VoltEdge Electrical", "description": "Solar and smart-home wiring.", "location": "Colombo", "reputation_score": 4.6},
+  {"name": "Pixel & Ink", "description": "Packaging and illustration studio.", "location": "Kandy", "reputation_score": 4.8},
+  {"name": "Oakline Carpentry", "description": "Deck and outdoor carpentry.", "location": "Galle", "reputation_score": 3.8},
+  {"name": "ShutterCircle Photography", "description": "Wedding and lifestyle photography.", "location": "Colombo", "reputation_score": 4.9},
+  {"name": "HueHouse Painters", "description": "Premium finish painting services.", "location": "Matara", "reputation_score": 4.0},
+  {"name": "NarrativeWorks", "description": "Blog and newsletter content teams.", "location": "Kandy", "reputation_score": 4.3},
+  {"name": "ByteBuilders", "description": "MVP builds and booking apps.", "location": "Galle", "reputation_score": 4.7},
+  {"name": "PipeRight Plumbing", "description": "Water heater and repipe specialists.", "location": "Colombo", "reputation_score": 4.2},
+  {"name": "CircuitCrew", "description": "Commercial electrical maintenance.", "location": "Kandy", "reputation_score": 3.7},
+  {"name": "DesignDock", "description": "Social templates and campaign assets.", "location": "Galle", "reputation_score": 4.5}
+]

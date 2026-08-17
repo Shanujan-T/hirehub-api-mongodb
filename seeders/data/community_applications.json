@@ -1,0 +1,22 @@
+[
+  {"community_id": 1, "job_id": 1, "status": "applied"},
+  {"community_id": 9, "job_id": 1, "status": "applied"},
+  {"community_id": 17, "job_id": 1, "status": "rejected"},
+  {"community_id": 2, "job_id": 2, "status": "approved"},
+  {"community_id": 10, "job_id": 2, "status": "rejected"},
+  {"community_id": 3, "job_id": 3, "status": "applied"},
+  {"community_id": 11, "job_id": 3, "status": "applied"},
+  {"community_id": 4, "job_id": 4, "status": "approved"},
+  {"community_id": 12, "job_id": 4, "status": "rejected"},
+  {"community_id": 5, "job_id": 5, "status": "applied"},
+  {"community_id": 13, "job_id": 5, "status": "applied"},
+  {"community_id": 6, "job_id": 6, "status": "approved"},
+  {"community_id": 14, "job_id": 6, "status": "rejected"},
+  {"community_id": 7, "job_id": 7, "status": "applied"},
+  {"community_id": 15, "job_id": 7, "status": "applied"},
+  {"community_id": 8, "job_id": 8, "status": "approved"},
+  {"community_id": 16, "job_id": 8, "status": "rejected"},
+  {"community_id": 1, "job_id": 9, "status": "approved"},
+  {"community_id": 2, "job_id": 10, "status": "approved"},
+  {"community_id": 3, "job_id": 11, "status": "applied"}
+]

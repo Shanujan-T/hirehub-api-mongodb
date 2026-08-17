@@ -1,0 +1,444 @@
+[
+  {
+    "name": "Web Development",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "pages",
+        "label": "Number of pages",
+        "type": "number"
+      },
+      {
+        "key": "features",
+        "label": "Features needed",
+        "type": "multiselect",
+        "options": [
+          "Portfolio",
+          "Blog/CMS",
+          "E-commerce",
+          "User Auth",
+          "Payment Integration",
+          "Custom Admin Dashboard"
+        ]
+      }
+    ],
+    "baseline_price": 75000,
+    "baseline_scope_key": null
+  },
+  {
+    "name": "Plumbing",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "fixtures_count",
+        "label": "Number of fixtures",
+        "type": "number"
+      },
+      {
+        "key": "job_type",
+        "label": "Job type",
+        "type": "select",
+        "options": [
+          "Repair",
+          "Installation",
+          "Emergency"
+        ]
+      }
+    ],
+    "baseline_price": 6000,
+    "baseline_scope_key": null
+  },
+  {
+    "name": "Electrical",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "rooms_count",
+        "label": "Number of rooms",
+        "type": "number"
+      },
+      {
+        "key": "job_type",
+        "label": "Job type",
+        "type": "select",
+        "options": [
+          "Repair",
+          "New Wiring",
+          "Inspection"
+        ]
+      }
+    ],
+    "baseline_price": 7000,
+    "baseline_scope_key": null
+  },
+  {
+    "name": "Graphic Design",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "deliverables",
+        "label": "Deliverables needed",
+        "type": "multiselect",
+        "options": [
+          "Logo",
+          "Brand Guide",
+          "Business Cards",
+          "Social Media Kit",
+          "Packaging Design",
+          "Print Ads"
+        ]
+      },
+      {
+        "key": "revisions",
+        "label": "Number of revision rounds",
+        "type": "number"
+      }
+    ],
+    "baseline_price": 10000,
+    "baseline_scope_key": null
+  },
+  {
+    "name": "Carpentry",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "area_sqft",
+        "label": "Area (sq ft)",
+        "type": "number",
+        "unit": "sq ft"
+      },
+      {
+        "key": "material",
+        "label": "Material",
+        "type": "select",
+        "options": [
+          "Softwood",
+          "Hardwood",
+          "Composite"
+        ]
+      }
+    ],
+    "baseline_price": 40,
+    "baseline_scope_key": "area_sqft"
+  },
+  {
+    "name": "Photography",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "hours",
+        "label": "Estimated hours",
+        "type": "number"
+      },
+      {
+        "key": "package",
+        "label": "Package",
+        "type": "select",
+        "options": [
+          "Basic",
+          "Standard",
+          "Premium"
+        ]
+      }
+    ],
+    "baseline_price": 1500,
+    "baseline_scope_key": "hours"
+  },
+  {
+    "name": "Painting",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "area_sqft",
+        "label": "Area (sq ft)",
+        "type": "number",
+        "unit": "sq ft"
+      },
+      {
+        "key": "coats",
+        "label": "Number of coats",
+        "type": "number"
+      }
+    ],
+    "baseline_price": 100,
+    "baseline_scope_key": "area_sqft"
+  },
+  {
+    "name": "Content Writing",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "word_count",
+        "label": "Word count",
+        "type": "number"
+      },
+      {
+        "key": "content_type",
+        "label": "Content type",
+        "type": "select",
+        "options": [
+          "Blog Post",
+          "Website Copy",
+          "Technical Docs"
+        ]
+      }
+    ],
+    "baseline_price": 25,
+    "baseline_scope_key": "word_count"
+  },
+  {
+    "name": "HVAC",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "units_count",
+        "label": "Number of units",
+        "type": "number"
+      },
+      {
+        "key": "job_type",
+        "label": "Job type",
+        "type": "select",
+        "options": [
+          "Repair",
+          "Installation",
+          "Maintenance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Landscaping",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "area_sqft",
+        "label": "Area (sq ft)",
+        "type": "number",
+        "unit": "sq ft"
+      }
+    ],
+    "baseline_price": 150,
+    "baseline_scope_key": "area_sqft"
+  },
+  {
+    "name": "Roofing",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "area_sqft",
+        "label": "Area (sq ft)",
+        "type": "number",
+        "unit": "sq ft"
+      },
+      {
+        "key": "job_type",
+        "label": "Job type",
+        "type": "select",
+        "options": [
+          "Repair",
+          "Replacement",
+          "Inspection"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tiling",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "area_sqft",
+        "label": "Area (sq ft)",
+        "type": "number",
+        "unit": "sq ft"
+      },
+      {
+        "key": "surface",
+        "label": "Surface",
+        "type": "select",
+        "options": [
+          "Floor",
+          "Wall",
+          "Bathroom",
+          "Kitchen Backsplash"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Welding",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "hours",
+        "label": "Estimated hours",
+        "type": "number"
+      },
+      {
+        "key": "job_type",
+        "label": "Job type",
+        "type": "select",
+        "options": [
+          "Repair",
+          "Fabrication",
+          "On-site Welding"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Home Cleaning",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "rooms_count",
+        "label": "Number of rooms",
+        "type": "number"
+      },
+      {
+        "key": "cleaning_type",
+        "label": "Cleaning type",
+        "type": "select",
+        "options": [
+          "Standard",
+          "Deep Clean",
+          "Move-out"
+        ]
+      }
+    ],
+    "baseline_price": 5000,
+    "baseline_scope_key": null
+  },
+  {
+    "name": "Moving Services",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "rooms_count",
+        "label": "Number of rooms",
+        "type": "number"
+      },
+      {
+        "key": "distance",
+        "label": "Distance",
+        "type": "select",
+        "options": [
+          "Local",
+          "Intercity",
+          "Long Distance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "IT Support",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "devices_count",
+        "label": "Number of devices",
+        "type": "number"
+      },
+      {
+        "key": "support_type",
+        "label": "Support type",
+        "type": "select",
+        "options": [
+          "Setup",
+          "Troubleshooting",
+          "Network",
+          "Security"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Data Entry",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "record_count",
+        "label": "Number of records",
+        "type": "number"
+      },
+      {
+        "key": "format",
+        "label": "Source format",
+        "type": "select",
+        "options": [
+          "Spreadsheets",
+          "Scanned Docs",
+          "Forms",
+          "Database Export"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Video Editing",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "minutes",
+        "label": "Video length (minutes)",
+        "type": "number"
+      },
+      {
+        "key": "edit_type",
+        "label": "Edit type",
+        "type": "select",
+        "options": [
+          "Basic Cut",
+          "Color Grade",
+          "Motion Graphics",
+          "Full Production"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Social Media Marketing",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "posts_per_month",
+        "label": "Posts per month",
+        "type": "number"
+      },
+      {
+        "key": "platforms",
+        "label": "Platforms",
+        "type": "multiselect",
+        "options": [
+          "Instagram",
+          "Facebook",
+          "TikTok",
+          "LinkedIn",
+          "YouTube"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mobile App Development",
+    "status": "approved",
+    "scope_schema": [
+      {
+        "key": "screens",
+        "label": "Number of screens",
+        "type": "number"
+      },
+      {
+        "key": "platforms",
+        "label": "Platforms",
+        "type": "multiselect",
+        "options": [
+          "iOS",
+          "Android",
+          "Cross-platform"
+        ]
+      }
+    ]
+  }
+]

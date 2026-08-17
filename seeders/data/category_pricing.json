@@ -1,0 +1,22 @@
+[
+  {"category_id": 1, "location": "Colombo", "average_price": 2500.00, "sample_size": 34},
+  {"category_id": 2, "location": "Kandy", "average_price": 180.00, "sample_size": 28},
+  {"category_id": 3, "location": "Galle", "average_price": 320.00, "sample_size": 22},
+  {"category_id": 4, "location": "Colombo", "average_price": 450.00, "sample_size": 40},
+  {"category_id": 5, "location": "Kandy", "average_price": 520.00, "sample_size": 15},
+  {"category_id": 6, "location": "Matara", "average_price": 380.00, "sample_size": 19},
+  {"category_id": 7, "location": "Negombo", "average_price": 290.00, "sample_size": 12},
+  {"category_id": 8, "location": "Colombo", "average_price": 120.00, "sample_size": 25},
+  {"category_id": 9, "location": "Jaffna", "average_price": 210.00, "sample_size": 9},
+  {"category_id": 10, "location": "Kandy", "average_price": 175.00, "sample_size": 14},
+  {"category_id": 11, "location": "Galle", "average_price": 640.00, "sample_size": 11},
+  {"category_id": 12, "location": "Colombo", "average_price": 95.00, "sample_size": 18},
+  {"category_id": 13, "location": "Matara", "average_price": 140.00, "sample_size": 7},
+  {"category_id": 14, "location": "Negombo", "average_price": 85.00, "sample_size": 16},
+  {"category_id": 15, "location": "Colombo", "average_price": 110.00, "sample_size": 20},
+  {"category_id": 16, "location": "Kandy", "average_price": 75.00, "sample_size": 13},
+  {"category_id": 17, "location": "Galle", "average_price": 65.00, "sample_size": 22},
+  {"category_id": 18, "location": "Colombo", "average_price": 200.00, "sample_size": 10},
+  {"category_id": 19, "location": "Matara", "average_price": 160.00, "sample_size": 8},
+  {"category_id": 20, "location": "Jaffna", "average_price": 2800.00, "sample_size": 6}
+]

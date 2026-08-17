@@ -1,0 +1,22 @@
+[
+  {"job_id": 2, "community_id": 2, "assigned_member_id": 17, "total_amount": 220.00, "commission_percent": 3, "status": "active"},
+  {"job_id": 4, "community_id": 4, "assigned_member_id": 15, "total_amount": 500.00, "commission_percent": 3, "status": "pending_assignment"},
+  {"job_id": 6, "community_id": 6, "assigned_member_id": 20, "total_amount": 420.00, "commission_percent": 3, "commission_amount": 12.60, "member_payout": 407.40, "status": "completed", "deliverable_url": "https://example.com/deliverables/wedding-gallery"},
+  {"job_id": 8, "community_id": 8, "assigned_member_id": 18, "total_amount": 140.00, "commission_percent": 3, "status": "active"},
+  {"job_id": 9, "community_id": 1, "assigned_member_id": 14, "total_amount": 2600.00, "commission_percent": 3, "commission_amount": 78.00, "member_payout": 2522.00, "status": "completed", "deliverable_url": "https://example.com/deliverables/portfolio-site"},
+  {"job_id": 10, "community_id": 2, "assigned_member_id": 18, "total_amount": 200.00, "commission_percent": 3, "commission_amount": 6.00, "member_payout": 194.00, "status": "completed", "deliverable_url": "https://example.com/deliverables/leak-fix"},
+  {"job_id": 12, "community_id": 4, "assigned_member_id": 16, "total_amount": 480.00, "commission_percent": 3, "status": "pending_assignment"},
+  {"job_id": 14, "community_id": 6, "assigned_member_id": 14, "total_amount": 400.00, "commission_percent": 3, "status": "submitted", "deliverable_url": "https://example.com/deliverables/product-shoot"},
+  {"job_id": 16, "community_id": 8, "assigned_member_id": 17, "total_amount": 130.00, "commission_percent": 3, "commission_amount": 3.90, "member_payout": 126.10, "status": "completed", "deliverable_url": "https://example.com/deliverables/seo-batch"},
+  {"job_id": 18, "community_id": 2, "assigned_member_id": 19, "total_amount": 210.00, "commission_percent": 3, "status": "active"},
+  {"job_id": 19, "community_id": 3, "assigned_member_id": 20, "total_amount": 360.00, "commission_percent": 3, "status": "pending_assignment"},
+  {"job_id": 20, "community_id": 4, "assigned_member_id": 15, "total_amount": 470.00, "commission_percent": 3, "commission_amount": 14.10, "member_payout": 455.90, "status": "completed", "deliverable_url": "https://example.com/deliverables/social-templates"},
+  {"job_id": 1, "community_id": 1, "assigned_member_id": 16, "total_amount": 2800.00, "commission_percent": 3, "status": "open_internally"},
+  {"job_id": 3, "community_id": 3, "assigned_member_id": 14, "total_amount": 350.00, "commission_percent": 3, "status": "active"},
+  {"job_id": 5, "community_id": 5, "assigned_member_id": 18, "total_amount": 580.00, "commission_percent": 3, "status": "pending_assignment"},
+  {"job_id": 7, "community_id": 7, "assigned_member_id": 15, "total_amount": 310.00, "commission_percent": 3, "status": "open_internally"},
+  {"job_id": 11, "community_id": 3, "assigned_member_id": 20, "total_amount": 340.00, "commission_percent": 3, "status": "disputed"},
+  {"job_id": 13, "community_id": 5, "assigned_member_id": 19, "total_amount": 550.00, "commission_percent": 3, "status": "pending_assignment"},
+  {"job_id": 15, "community_id": 7, "assigned_member_id": 16, "total_amount": 300.00, "commission_percent": 3, "status": "active"},
+  {"job_id": 17, "community_id": 1, "assigned_member_id": 14, "total_amount": 3000.00, "commission_percent": 3, "status": "open_internally"}
+]
