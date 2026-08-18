@@ -1,4 +1,5 @@
 'use strict';
+const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 const passwordUtil = require('../utils/password');
 const { User, UserSkill, Skill, WorkSample, Contract, Review, publicDoc } = require('../models');
@@ -26,15 +27,35 @@ async function serializeUser(user, { self = false, stats = false, skills = false
 async function register(req, res, next) {
   try {
     const data = req.body || {}, errors = [];
+    const full_name = data.full_name ?? data.fullName;
+    const role = data.role ?? data.accountType;
     if (!data.email) errors.push('email is required.'); if (!data.password) errors.push('password is required.');
-    if (!data.full_name) errors.push('full_name is required.'); if (!['user','employer'].includes(data.role)) errors.push('role is required and must be either user or employer.');
+    if (!full_name) errors.push('full_name is required.'); if (!['user','employer'].includes(role)) errors.push('role is required and must be either user or employer.');
     if (errors.length) return res.status(400).json({ errors });
-    const email = String(data.email).trim().toLowerCase(), full_name = String(data.full_name).trim();
-    if (!email || !full_name) return res.status(400).json({ errors: ['email and full_name cannot be blank.'] });
+    const email = String(data.email).trim().toLowerCase(), normalizedFullName = String(full_name).trim();
+    if (!email || !normalizedFullName) return res.status(400).json({ errors: ['email and full_name cannot be blank.'] });
+    if (mongoose.connection.readyState !== 1) return res.status(503).json({ error: 'Database is not connected. Please try again shortly.' });
+    if (!jwtSecret) return res.status(500).json({ error: 'Server authentication configuration error.' });
     if (await User.exists({ email })) return res.status(409).json({ error: 'Email already registered.' });
-    const user = await User.create({ email, full_name, role: data.role, password: await passwordUtil.hash(data.password) });
+    const password = await passwordUtil.hash(data.password);
+    const user = await User.create({ email, full_name: normalizedFullName, role, password });
     return res.status(201).json({ message: 'Registered successfully.', access_token: tokenFor(user.id), user: await serializeUser(user, { self: true, skills: true }) });
-  } catch (e) { if (e.code === 11000) return res.status(409).json({ error: 'Email already registered.' }); next(e); }
+  } catch (err) {
+    console.error(`Registration failed: ${err.message}`);
+    console.error(err.stack);
+    if (err.code === 11000) {
+      const duplicateEmail = err.keyPattern?.email || err.keyValue?.email;
+      return res.status(409).json({ error: duplicateEmail ? 'Email already registered.' : 'Registration conflicts with an existing account.' });
+    }
+    if (err.name === 'ValidationError') {
+      const errors = Object.values(err.errors).map(error => error.message);
+      return res.status(400).json({ errors });
+    }
+    if (err.name === 'MongoServerSelectionError' || err.name === 'MongoNetworkError' || /buffering timed out|database connection/i.test(err.message)) {
+      return res.status(503).json({ error: 'Database connection error. Please try again shortly.' });
+    }
+    return next(err);
+  }
 }
 async function login(req, res, next) {
   try {
