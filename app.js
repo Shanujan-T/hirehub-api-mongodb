@@ -42,6 +42,9 @@ app.use(async (_req, _res, next) => {
     await connectDatabase();
     next();
   } catch (error) {
+    error.status = 503;
+    error.code = error.code || 'DATABASE_CONNECTION_ERROR';
+    error.publicMessage = 'Database connection error. Please try again shortly.';
     next(error);
   }
 });
