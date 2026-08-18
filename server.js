@@ -1,7 +1,7 @@
 'use strict';
 const http = require('node:http');
 const { Server } = require('socket.io');
-const app = require('./src/application');
+const app = require('./app');
 const { connectDatabase } = require('./src/config/database');
 const { port, mongodbRetryDelayMs } = require('./src/config');
 const { registerSocket } = require('./src/socket');

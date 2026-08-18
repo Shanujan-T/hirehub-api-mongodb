@@ -19,6 +19,7 @@ async function connectDatabase() {
     connectTimeoutMS: mongodbConnectTimeoutMs,
   }).then(() => mongoose.connection).catch(error => {
     connectionPromise = null;
+    console.error(`MongoDB connection failed: ${error.message}`);
     throw error;
   });
   return connectionPromise;

@@ -1,7 +1,5 @@
 'use strict';
 
-const app = require('../src/application');
+const app = require('../app');
 
-module.exports = function handler(req, res) {
-  return app(req, res);
-};
+module.exports = app;

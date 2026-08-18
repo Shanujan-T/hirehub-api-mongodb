@@ -1,3 +1,3 @@
 'use strict';
-const test=require('node:test');const assert=require('node:assert/strict');const app=require('../src/application');
+const test=require('node:test');const assert=require('node:assert/strict');const app=require('../app');
 test('all legacy method/path contracts are registered',()=>{const layer=app.router.stack.find(x=>x.name==='router');assert.ok(layer);const routes=layer.handle.stack.filter(x=>x.route).flatMap(x=>Object.keys(x.route.methods).map(method=>`${method.toUpperCase()} /api${x.route.path}`));assert.equal(new Set(routes).size,124);for(const route of ['POST /api/auth/register','GET /api/jobs/:id','PATCH /api/reports/:id','PUT /api/notifications/read-all','POST /api/contracts/:id/messages/suggest-reply'])assert.ok(routes.includes(route),route);});
