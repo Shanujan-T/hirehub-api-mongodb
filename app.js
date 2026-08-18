@@ -7,6 +7,8 @@ const routes = require('./src/routes');
 const { notFound, errorHandler } = require('./src/middleware/errors');
 
 const defaultAllowedOrigins = [
+  'http://localhost:3000',
+  'http://127.0.0.1:3000',
   'http://localhost:5173',
   'https://hirehub-client-mongodb.vercel.app',
 ];
