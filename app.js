@@ -42,6 +42,14 @@ function createApp() {
       database: database.state,
     });
   });
+  app.use(async (_req, _res, next) => {
+    try {
+      await connectDatabase();
+      next();
+    } catch (error) {
+      next(error);
+    }
+  });
   app.use('/api', routes);
   app.use(notFound);
   app.use(errorHandler);
@@ -88,5 +96,10 @@ function start() {
   process.once('SIGINT', () => shutdown('SIGINT'));
   return server;
 }
+const app = createApp();
+
 if (require.main === module) start();
-module.exports = { createApp, start };
+
+module.exports = app;
+module.exports.createApp = createApp;
+module.exports.start = start;
